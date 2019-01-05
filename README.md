@@ -1,4 +1,4 @@
-# Readme
+# README
 
 pyaibot.py is a Chinese chat robot.
 
