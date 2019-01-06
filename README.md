@@ -1,5 +1,5 @@
 # README
 
-pyaibot.py is a Chinese chat robot.
+IDE:Spyder
 
 For example:example.py
