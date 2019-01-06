@@ -8,9 +8,9 @@ except:
 def chchat(a):
     import jieba
     v=False
-    '''if a=="quit" or a=="exit" or a=="退出" or a=="再见":
-        import os
-        exit()'''
+    #if a=="quit" or a=="exit" or a=="退出" or a=="再见":
+     #   import os
+      #  exit()#会有错误
     list1=jieba.lcut(a)#jieba分词
     #print(list1)
     i=0
