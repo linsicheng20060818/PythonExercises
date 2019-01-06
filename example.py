@@ -7,6 +7,7 @@ Created on Sat Jan  5 20:58:40 2019
 """
 from pyaibot import chchat
 l=input(">")
-print(chchat(l))'''#pychatbot
+print(chchat(l))#pychatbot
+
 from Enfc import Enfc0
 print(Enfc0(input(">")))#Enfc
