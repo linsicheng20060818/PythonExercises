@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import jieba
 a=input(">")
 print(", ".join(jieba.lcut(a)))
