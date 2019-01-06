@@ -16,7 +16,7 @@ def chchat(a):
     b=""
     r=0
     if list1[i]=="你好":#如果是打招呼，直接输出
-       print(a)
+       return(a)
     else:
         ni=[]
         wo=[]
@@ -35,6 +35,6 @@ def chchat(a):
         for i in range(len(list1)):
             b=b+list1[i]
         if v==True:
-            print(random.randint(-10,2000))
+            return(random.randint(-10,2000))
         else:
             return((b.replace("吗","").replace("?","!")).replace("？","！"))
