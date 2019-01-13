@@ -1,15 +1,9 @@
 # README
 
-IDE:Spyder
+IDE:Spyder&visual-studio-code-bin
 
 For example:example.py
-
-- _0.1 10.py
-- example.py
-- jiebatest.py
-- pyaibot.py
-- LICENCE
-- README.md
+Install jieba by (sudo)pip3 (or pip)install jieba
 
 |代码名字|用处|
 |---|---|
@@ -22,12 +16,7 @@ For example:example.py
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  5 20:58:40 2019
-
-@author: lin
-"""
-
+import jieba
 from pyaibot import chchat
 print("中文聊天程序")
 l=input(">")
