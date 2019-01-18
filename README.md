@@ -14,7 +14,7 @@ Install jieba by (sudo)pip3 (or pip)install jieba
 |pyaibot|py chat|
 |LICENCE|MIT licence|
 |README.md|README|
-##example
+## example
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
