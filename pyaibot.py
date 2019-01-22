@@ -10,17 +10,17 @@ def chchat(a):
     v=False
     #if a=="quit" or a=="exit" or a=="退出" or a=="再见":
      #   import os
-      #  exit()#会有错误
+      #  exit()#Error
     list1=jieba.lcut(a)#jieba分词
-    #print(list1)
+    #print(list1)#Debug
     i=0
     b=""
   
-    if list1[i]=="你好":#如果是打招呼，直接输出
+    if list1[i]=="你好":
        return(a)
     else:
         
-        for i in range(len(list1)):#判断 '你'和'我'
+        for i in range(len(list1)):
             if list1[i]=="你":
                 list1[i]="我"
             elif list1[i]=="我":
