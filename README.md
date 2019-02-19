@@ -4,6 +4,7 @@
 IDE:Spyder&Visual-studio-code
 
 For example:example.py
+
 Install jieba by (sudo)pip3 (or pip)install jieba
 
 ## example
